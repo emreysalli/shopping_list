@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = emre_yasin_salli_thesis
+build_property.RootNamespace = emre_yasin_salli_thesis
+build_property.ProjectDir = C:\Users\emre_\source\repos\shopping_list\emre_yasin_salli_thesis\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\emre_\source\repos\shopping_list\emre_yasin_salli_thesis
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Areas/Identity/Pages/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Admin/CategoryCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Admin/CategoryEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Admin/CategoryList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Admin/ProductCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Admin/ProductEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Admin/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/User/AddProductToShoppingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRQcm9kdWN0VG9TaG9wcGluZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/User/ListProductsForShoppingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0UHJvZHVjdHNGb3JTaG9wcGluZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/User/ListProductsInShoppingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0UHJvZHVjdHNJblNob3BwaW5nTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/User/ShoppingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaG9wcGluZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/User/ShoppingListCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaG9wcGluZ0xpc3RDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/User/ShoppingListDetailEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaG9wcGluZ0xpc3REZXRhaWxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emre_/source/repos/shopping_list/emre_yasin_salli_thesis/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pk31p43kt6

@@ -1,0 +1,60 @@
+﻿@model List<ShoppingListDetail>
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="h3">@ViewBag.ShoppingList[0].ListName</h1>
+        <hr>
+        <a class="btn btn-primary btn-sm  @(!ViewBag.ShoppingList[0].IsShopping ? "disabled":"")" href="/user/completedShopping/@ViewBag.ShoppingList[0].Id">Completed Shopping</a>
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th style="width: 200px;">Image</th>
+                    <th>Name</th>
+                    <th style="width: 200px;"></th>
+                    <th style="width: 200px;"></th>
+                    <th style="width: 200px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Count() > 0)
+                {
+
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><img src="@item.Product.Image" width="80" alt=""></td>
+                            <td>@item.Product.Name</td>
+                            <td>
+                                <form action="/user/shoppingListDetailEdit" method="get" style="display: inline;">
+                                    <input type="hidden" name="id" value="@item.ShoppingListDetailId">
+                                    <button type="submit" href="#" class="btn btn-primary btn-sm @(ViewBag.ShoppingList[0].IsShopping ? "disabled":"")">Detail</button>
+                                </form>
+                            </td>
+                            <td>
+                                <form action="/user/deleteproductinshoppinglist" method="post" style="display: inline;">
+                                    <input type="hidden" name="shoppingListDetailId" value="@item.ShoppingListDetailId">
+                                    <input type="hidden" name="shoppingListId" value="@ViewBag.ShoppingList[0].Id">
+                                    <button type="submit" href="#" class="btn btn-danger btn-sm @(ViewBag.ShoppingList[0].IsShopping ? "disabled":"")">Delete</button>
+                                </form>
+                            </td>
+                            <td>
+                                <form action="/user/deleteproductinshoppinglist" method="post" style="display: inline;">
+                                    <input type="hidden" name="shoppingListDetailId" value="@item.ShoppingListDetailId">
+                                    <input type="hidden" name="shoppingListId" value="@ViewBag.ShoppingList[0].Id">
+                                    <button type="submit" href="#" class="btn btn-primary btn-sm">I bought</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <div class="alert alert-warning">
+                        <h3>No Products</h3>
+                    </div>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

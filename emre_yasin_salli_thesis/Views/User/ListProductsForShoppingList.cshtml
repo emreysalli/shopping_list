@@ -1,0 +1,54 @@
+﻿
+
+<div class="row">
+    <h1 class="h3">Add To @ViewBag.ShoppingList.ListName</h1>
+    <div class="col-md-3">
+        <div class="list-group">
+            <a asp-controller="user" asp-action="ListProductsForShoppingList" asp-route-id="@ViewBag.ShoppingList.Id" class="list-group-item list-group-item-action @(ViewBag.SelectedCategory == null ? " active":"")">All Categories</a>
+            @foreach (var category in ViewBag.Categories)
+            {
+                <a asp-controller="user" asp-action="ListProductsForShoppingList" asp-route-id="@ViewBag.ShoppingList.Id" asp-route-categoryId="@category.CategoryId" class="list-group-item list-group-item-action @(ViewBag.SelectedCategory == category.CategoryId ? " active":"")">@category.Name</a>
+            }
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <h5>Search</h5>
+            </div>
+            <div class="card-body">
+                <form asp-controller="User" asp-action="search">
+                    <div class="form-group">
+                        <input type="hidden" name="id" value="@ViewBag.ShoppingList.Id">
+                        <input name="q" type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-sm btn-block">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="row">
+            @foreach (var product in ViewBag.Products)
+            {
+                <div class="col-md-3">
+                    <div class="card mb-2">
+                        <img class="card-img-top" style="width: 200px;height: 300px;object-fit: cover;" src="@product.Image" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                        </div>
+                        <div class="card-footer text-center">
+
+                            <form asp-controller="User" asp-action="AddProductToShoppingList" style="display: inline;" method="get">
+                                <input type="hidden" name="productId" value="@product.ProductId">
+                                <input type="hidden" name="shoppingListId" value="@ViewBag.ShoppingList.Id">
+                                
+                                <button type="submit" class="btn btn-primary btn-sm">Add to Shopping List</button>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

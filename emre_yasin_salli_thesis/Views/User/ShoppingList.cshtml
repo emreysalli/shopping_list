@@ -1,0 +1,60 @@
+﻿@model List<ShoppingList>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="h3">My Shopping List</h1>
+        <hr />
+        <a class="btn btn-primary btn-sm" href="/user/shoppinglistcreate">Add Shopping List</a>
+        
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">List Name</th>
+                    <th scope="col">I go shopping</th>
+                    <th style="width: 200px;"></th>
+                    <th style="width: 200px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Count == 0)
+                {
+                    <div class="alert alert-warning mt-3">
+                        <h2>No Shopping List</h2>
+                    </div>
+                }
+                else
+                {
+                    @foreach (var item in Model)
+                    {
+                        
+                            <tr>
+                                <th scope="row">@item.Id</th>
+                                <td>
+                                    <a href="/user/ListProductsInShoppingList/@item.Id">@item.ListName</a>
+                                </td>
+                            <td>
+                                <form action="/user/goshopping" method="post" style="display: inline;">
+                                    <input type="hidden" name="id" value="@item.Id">
+                                    <button type="submit" href="#" class="btn btn-primary btn-sm @(item.IsShopping ? "disabled":"")">I go shopping</button>
+                                </form>
+                            </td>
+                                <td>
+                                    <a href="/user/ListProductsForShoppingList/@item.Id" class="btn btn-primary btn-sm mr-2 @(item.IsShopping ? "disabled":"")">Add Product</a>
+                                </td>
+                                <td>
+                                    <form action="/user/deleteshoppinglist" method="post" style="display: inline;" >
+                                        <input type="hidden" name="id" value="@item.Id">
+                                        <button type="submit" href="#" class="btn btn-danger btn-sm @(item.IsShopping ? "disabled":"")">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        
+                    }
+                }
+            </tbody>
+        </table>
+        
+    </div>
+</div>
